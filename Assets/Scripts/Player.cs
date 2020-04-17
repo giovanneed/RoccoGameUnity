@@ -44,7 +44,7 @@ public class Player : MonoBehaviour
         onGround = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, whatIsGround);
      	if (Input.GetKey(KeyCode.Space)  && onGround)
         {
-                rb.velocity = new Vector2(rb.velocity.x, 5);
+                //rb.velocity = new Vector2(rb.velocity.x, 5);
         }
 
         distance = distance  + 1;
